@@ -18,7 +18,7 @@ app.post("/", async (req, res) => {
 app.get("/birds", async (req, res) => {
 	setTimeout(() => {
 		return res.json(birds);
-	}, 3000);
+	}, 0);
 });
 
 app.listen(PORT, () => {
